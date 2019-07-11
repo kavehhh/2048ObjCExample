@@ -1,0 +1,1032 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		036F497A2FE3F4A16B182AC8CAE1D780 /* OTVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = A23496FF6F64480BACD4DF6064CCA0E8 /* OTVersion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0397AE0E6F374A9811B4E72F6660FD16 /* OTReference.h in Headers */ = {isa = PBXBuildFile; fileRef = 60D2B2CFFB36232557EF116C8E0CF2E5 /* OTReference.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15E1C4BE9985CA36B3FAAEFDA156F5AE /* OpenTracing-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B2C328E08F062682378ADD59E6BFBA7 /* OpenTracing-Bridging-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18B102072154B4CED90387E534283D43 /* LSUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C7A088E1A5EC4349595FA1CAF0AA0D8 /* LSUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3315F85F71B59662929C3346E74DDFE0 /* OTGlobal.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AD888820130A78761044B6419D720BB /* OTGlobal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D2546A25E5D239155365F1E26F90F8F /* LightStep-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = B744B2A9FC3C6475794EA0C8844FCEE0 /* LightStep-Bridging-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3ED74848A65FECA753CD751F56C49FAC /* LSClockState.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C95FBE7BE165864F7E52FBF947C34CE /* LSClockState.m */; };
+		3F2803AE52842BA490E45573F443726A /* Pods-NumberTileGameTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 18BCACE932341EADEE93630F878F320E /* Pods-NumberTileGameTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EE5692D4C64EBF1D303B8DE161F06E /* OTNoop.h in Headers */ = {isa = PBXBuildFile; fileRef = 947CDDF507FFA15E146495915FEA6881 /* OTNoop.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52271E1C7CB22EDC441853AD25E60312 /* Pods-NumberTileGameTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AAB229E48FAAD139138CFBA42BBEBC7 /* Pods-NumberTileGameTests-dummy.m */; };
+		6A8F1EEA5888450210EEC503BF6EAB23 /* LSClockState.h in Headers */ = {isa = PBXBuildFile; fileRef = FE1B965CDF64741925B9D5A59A0F199A /* LSClockState.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7240D3D66A582B9952313B533E0165C3 /* OTReference.m in Sources */ = {isa = PBXBuildFile; fileRef = D231A943583DC34BF15A6318CD42BBA5 /* OTReference.m */; };
+		76767CB4ED6A4D6F0850C5DF8FDE1339 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BD1925F554BB7ACC9758E1D91651B52 /* Foundation.framework */; };
+		76875D293F968E67BC8B951F3AC612FF /* LSUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = E07530CBEB10EDD1B9381F2B1DB70C4D /* LSUtil.m */; };
+		8088D31EC9BD4F89B8A2619A6DCBB626 /* OTGlobal.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CAE590B0B0BCB96418A5C509D8387D /* OTGlobal.m */; };
+		833AB3E7A1564AECA7E0D54036460C00 /* LSTracer.h in Headers */ = {isa = PBXBuildFile; fileRef = 855D124E0422638A69FA11859273C42E /* LSTracer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88B2BD6B5F893C0519EAF990B774AA5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BD1925F554BB7ACC9758E1D91651B52 /* Foundation.framework */; };
+		8946198A074B9FE5758497B8AC5F6052 /* opentracing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3925C029EDC05836B8787875E2F4276F /* opentracing.framework */; };
+		89851CE4F28BA5E8036AAD4B059A3401 /* Pods-NumberTileGame-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46603A292498668A25369D05A17FEDCD /* Pods-NumberTileGame-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89CF03212EFDAB4A28DBF6E433E0B079 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BD1925F554BB7ACC9758E1D91651B52 /* Foundation.framework */; };
+		8A18AE575A907D96EE806B3E82275D3D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BD1925F554BB7ACC9758E1D91651B52 /* Foundation.framework */; };
+		8E400CA7D99A81B632121E62B9525FF2 /* LSSpanContext.h in Headers */ = {isa = PBXBuildFile; fileRef = ABC6C16A546CC927F8E0E08B42DB3722 /* LSSpanContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		950DD7F8ED59FF650B058D6C84DC9963 /* lightstep-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 30EBD4C94DB359DD15C53BBC2C95C4EC /* lightstep-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9652692D0BE8E9A9D13C3A5F1B0CB0AE /* LSTracer.m in Sources */ = {isa = PBXBuildFile; fileRef = 435C6D39F7A1C9813252B1434B695DC4 /* LSTracer.m */; };
+		A904DB8907F8ABB63032FBDFE44195DE /* OTNoop.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E57E93D3252D84BC6EABF4EB9EB9C2 /* OTNoop.m */; };
+		A9BDE3F15B64928A78BBFF6B26A3E36A /* OTSpanContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 107125F777D0269BA6E4ACF64EF48E3D /* OTSpanContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADC7D00F0F0CB20358A6E445BFDCDA34 /* OTTracer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DC0B29826284F70BDC72723B2F54D2C /* OTTracer.m */; };
+		BB4912D0DE6F235A0DF5A474E8419315 /* LSSpanContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B350BA4FE56145BF824A5BDCEEF58F8 /* LSSpanContext.m */; };
+		C6B4589A849232BF5100145257B03ED7 /* Pods-NumberTileGame-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D71AB83BDEE311BBE53E445B09B7A3 /* Pods-NumberTileGame-dummy.m */; };
+		CD5AC15A5C19D4DC279ED15B961346F6 /* LSSpan.m in Sources */ = {isa = PBXBuildFile; fileRef = 1620EDDE459BAEC5B01BB22F136DBDF7 /* LSSpan.m */; };
+		D148636C0D23031699DC9149B14BE2A3 /* opentracing-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A855F7CB991B9410627A1645A285783 /* opentracing-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF869C5925FD86C55C5E0693D1BDB522 /* LSSpan.h in Headers */ = {isa = PBXBuildFile; fileRef = 21CFCE410B689BFB6516DD1086BFF5C2 /* LSSpan.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA8C9BB4DB9393CDB837F88D34A74449 /* lightstep-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E0DF5FB13154845D7440D3B9722A1FF6 /* lightstep-dummy.m */; };
+		F1FB7A1DC57A8C78E1D4A831BB14FC62 /* OTSpan.h in Headers */ = {isa = PBXBuildFile; fileRef = 75C125175B4338BF73BCB91E5F2205E3 /* OTSpan.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F49EA659DA73875E818DE00326CE9D1B /* LSVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = 45B584C34960499DE77747AC6F43AED5 /* LSVersion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F934AB439173904272F749CC30C3C117 /* opentracing-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DB574D8C5EE1B7AD2E03F5FD3A029FFF /* opentracing-dummy.m */; };
+		FAE07A559AE19397CE8897DCDD5C811A /* OTTracer.h in Headers */ = {isa = PBXBuildFile; fileRef = 50D91126135718E5277D02C7D440A720 /* OTTracer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3BCDDB80E4AE4D24DD0731D466A618E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12A2789B46CF2BB27CCB96083CE4346A;
+			remoteInfo = "Pods-NumberTileGame";
+		};
+		3C0CA9C7D69DC3A20606FAC8ED18C9D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 807076DAAA77F0E0B680ACC7857CDBC8;
+			remoteInfo = lightstep;
+		};
+		5E9216B44443EF46E0C3EB4845C5A661 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 134ED9182A7A2B4FA24F18A7559F4D4A;
+			remoteInfo = opentracing;
+		};
+		673EFBA9B84DC23700184664C6826BEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 134ED9182A7A2B4FA24F18A7559F4D4A;
+			remoteInfo = opentracing;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0AAB229E48FAAD139138CFBA42BBEBC7 /* Pods-NumberTileGameTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NumberTileGameTests-dummy.m"; sourceTree = "<group>"; };
+		0B350BA4FE56145BF824A5BDCEEF58F8 /* LSSpanContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LSSpanContext.m; path = Pod/Classes/LSSpanContext.m; sourceTree = "<group>"; };
+		107125F777D0269BA6E4ACF64EF48E3D /* OTSpanContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OTSpanContext.h; path = Pod/Classes/OTSpanContext.h; sourceTree = "<group>"; };
+		1620EDDE459BAEC5B01BB22F136DBDF7 /* LSSpan.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LSSpan.m; path = Pod/Classes/LSSpan.m; sourceTree = "<group>"; };
+		17F8FE95C28B1AB10ABCA3D5568D2988 /* opentracing.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = opentracing.modulemap; sourceTree = "<group>"; };
+		18BCACE932341EADEE93630F878F320E /* Pods-NumberTileGameTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NumberTileGameTests-umbrella.h"; sourceTree = "<group>"; };
+		1CC70093DA2093D4072F633F70F1E0E2 /* Pods-NumberTileGameTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NumberTileGameTests.modulemap"; sourceTree = "<group>"; };
+		21CFCE410B689BFB6516DD1086BFF5C2 /* LSSpan.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LSSpan.h; path = Pod/Classes/LSSpan.h; sourceTree = "<group>"; };
+		24E1BA4323C043442401C27BBE9FCE33 /* Pods-NumberTileGameTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NumberTileGameTests-Info.plist"; sourceTree = "<group>"; };
+		2AD888820130A78761044B6419D720BB /* OTGlobal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OTGlobal.h; path = Pod/Classes/OTGlobal.h; sourceTree = "<group>"; };
+		2C95FBE7BE165864F7E52FBF947C34CE /* LSClockState.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LSClockState.m; path = Pod/Classes/LSClockState.m; sourceTree = "<group>"; };
+		2DC0B29826284F70BDC72723B2F54D2C /* OTTracer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OTTracer.m; path = Pod/Classes/OTTracer.m; sourceTree = "<group>"; };
+		2F59A4A1B5CA51AF109F9889E8D0E3A2 /* Pods-NumberTileGame-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NumberTileGame-acknowledgements.markdown"; sourceTree = "<group>"; };
+		30EBD4C94DB359DD15C53BBC2C95C4EC /* lightstep-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "lightstep-umbrella.h"; sourceTree = "<group>"; };
+		3925C029EDC05836B8787875E2F4276F /* opentracing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = opentracing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BD1925F554BB7ACC9758E1D91651B52 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3F1551080A80FA0398A3D9B9B449BE18 /* Pods-NumberTileGameTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NumberTileGameTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		435C6D39F7A1C9813252B1434B695DC4 /* LSTracer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LSTracer.m; path = Pod/Classes/LSTracer.m; sourceTree = "<group>"; };
+		43E57E93D3252D84BC6EABF4EB9EB9C2 /* OTNoop.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OTNoop.m; path = Pod/Classes/OTNoop.m; sourceTree = "<group>"; };
+		44CAE590B0B0BCB96418A5C509D8387D /* OTGlobal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OTGlobal.m; path = Pod/Classes/OTGlobal.m; sourceTree = "<group>"; };
+		45B584C34960499DE77747AC6F43AED5 /* LSVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LSVersion.h; path = Pod/Classes/LSVersion.h; sourceTree = "<group>"; };
+		46603A292498668A25369D05A17FEDCD /* Pods-NumberTileGame-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NumberTileGame-umbrella.h"; sourceTree = "<group>"; };
+		4A74BCB0E3A16DD3438BD66B62FF21D6 /* Pods-NumberTileGame-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NumberTileGame-acknowledgements.plist"; sourceTree = "<group>"; };
+		50D91126135718E5277D02C7D440A720 /* OTTracer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OTTracer.h; path = Pod/Classes/OTTracer.h; sourceTree = "<group>"; };
+		57A6FFC4002F1204821E1A5F35889C7C /* opentracing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = opentracing.framework; path = opentracing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5802EA8F86A5273987CB2BC435CDEFE6 /* Pods-NumberTileGame-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NumberTileGame-frameworks.sh"; sourceTree = "<group>"; };
+		5A005227A61E57C18D2213C479541FF7 /* Pods-NumberTileGameTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NumberTileGameTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5BA2D788CF11D4CCC006B32151B7F2E8 /* opentracing-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "opentracing-prefix.pch"; sourceTree = "<group>"; };
+		60D2B2CFFB36232557EF116C8E0CF2E5 /* OTReference.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OTReference.h; path = Pod/Classes/OTReference.h; sourceTree = "<group>"; };
+		6DB82CA6E35645616881FA3DB09AAB68 /* lightstep.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = lightstep.modulemap; sourceTree = "<group>"; };
+		6E08A53F8BECB226CC4471A89C6F4837 /* lightstep.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = lightstep.framework; path = lightstep.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E412CA021C7756CD998772111BA0120 /* lightstep-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "lightstep-prefix.pch"; sourceTree = "<group>"; };
+		75C125175B4338BF73BCB91E5F2205E3 /* OTSpan.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OTSpan.h; path = Pod/Classes/OTSpan.h; sourceTree = "<group>"; };
+		8288C9B4E57528F0C6F3AC0CC6948D52 /* opentracing-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "opentracing-Info.plist"; sourceTree = "<group>"; };
+		84C45172E37025C3954A5589B6442082 /* lightstep-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "lightstep-Info.plist"; sourceTree = "<group>"; };
+		855D124E0422638A69FA11859273C42E /* LSTracer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LSTracer.h; path = Pod/Classes/LSTracer.h; sourceTree = "<group>"; };
+		8B8C44FA05609D233A9E20F4EDADA342 /* Pods-NumberTileGame.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NumberTileGame.modulemap"; sourceTree = "<group>"; };
+		947CDDF507FFA15E146495915FEA6881 /* OTNoop.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OTNoop.h; path = Pod/Classes/OTNoop.h; sourceTree = "<group>"; };
+		9A855F7CB991B9410627A1645A285783 /* opentracing-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "opentracing-umbrella.h"; sourceTree = "<group>"; };
+		9B2C328E08F062682378ADD59E6BFBA7 /* OpenTracing-Bridging-Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "OpenTracing-Bridging-Header.h"; path = "Pod/Classes/OpenTracing-Bridging-Header.h"; sourceTree = "<group>"; };
+		9C7A088E1A5EC4349595FA1CAF0AA0D8 /* LSUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LSUtil.h; path = Pod/Classes/LSUtil.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F1004DDFC0BFC2029A3E1D543AE918E /* opentracing.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = opentracing.xcconfig; sourceTree = "<group>"; };
+		A23496FF6F64480BACD4DF6064CCA0E8 /* OTVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OTVersion.h; path = Pod/Classes/OTVersion.h; sourceTree = "<group>"; };
+		A3D71AB83BDEE311BBE53E445B09B7A3 /* Pods-NumberTileGame-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NumberTileGame-dummy.m"; sourceTree = "<group>"; };
+		ABC6C16A546CC927F8E0E08B42DB3722 /* LSSpanContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LSSpanContext.h; path = Pod/Classes/LSSpanContext.h; sourceTree = "<group>"; };
+		B4A4C169B068853712FE18971B08D1C5 /* Pods-NumberTileGameTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NumberTileGameTests.release.xcconfig"; sourceTree = "<group>"; };
+		B744B2A9FC3C6475794EA0C8844FCEE0 /* LightStep-Bridging-Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "LightStep-Bridging-Header.h"; path = "Pod/Classes/LightStep-Bridging-Header.h"; sourceTree = "<group>"; };
+		BD39653C1671A88A4346F6AA77232AC6 /* lightstep.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = lightstep.xcconfig; sourceTree = "<group>"; };
+		C142D151C3952B28D31B74705D78AE58 /* Pods-NumberTileGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NumberTileGame.release.xcconfig"; sourceTree = "<group>"; };
+		C9CE9D3C96FA95E90FE1701BFEF1A088 /* Pods-NumberTileGame-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NumberTileGame-Info.plist"; sourceTree = "<group>"; };
+		CAFC9D1493467B18015EF91A1D443E36 /* Pods-NumberTileGameTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NumberTileGameTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CC35FECAE459C2AB1D2F6B1C408DC7E2 /* Pods_NumberTileGameTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NumberTileGameTests.framework; path = "Pods-NumberTileGameTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D231A943583DC34BF15A6318CD42BBA5 /* OTReference.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OTReference.m; path = Pod/Classes/OTReference.m; sourceTree = "<group>"; };
+		DB574D8C5EE1B7AD2E03F5FD3A029FFF /* opentracing-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "opentracing-dummy.m"; sourceTree = "<group>"; };
+		E07530CBEB10EDD1B9381F2B1DB70C4D /* LSUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LSUtil.m; path = Pod/Classes/LSUtil.m; sourceTree = "<group>"; };
+		E0DF5FB13154845D7440D3B9722A1FF6 /* lightstep-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "lightstep-dummy.m"; sourceTree = "<group>"; };
+		E32D813F33ACBC264E75F88921AE7F40 /* Pods_NumberTileGame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NumberTileGame.framework; path = "Pods-NumberTileGame.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6E2BB9DBC34B87330D9355FA342FE05 /* Pods-NumberTileGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NumberTileGame.debug.xcconfig"; sourceTree = "<group>"; };
+		FE1B965CDF64741925B9D5A59A0F199A /* LSClockState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LSClockState.h; path = Pod/Classes/LSClockState.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		204A3208148BB65CB8B7DFA9B81F1745 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89CF03212EFDAB4A28DBF6E433E0B079 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		447757A7F013E3993833420F03CB8D83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A18AE575A907D96EE806B3E82275D3D /* Foundation.framework in Frameworks */,
+				8946198A074B9FE5758497B8AC5F6052 /* opentracing.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61B632B03786A7132EAF8D5E60230A78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76767CB4ED6A4D6F0850C5DF8FDE1339 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83BED9EEB0657875D3A6E671B79B4262 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88B2BD6B5F893C0519EAF990B774AA5C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0556ECA65FF6B696ED39784740105A7D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E0A59FA38BF1B6E943F35621035CC9CE /* Pods-NumberTileGame */,
+				2A1527250F6949DCB02FF8329E8AA752 /* Pods-NumberTileGameTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2A1527250F6949DCB02FF8329E8AA752 /* Pods-NumberTileGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				1CC70093DA2093D4072F633F70F1E0E2 /* Pods-NumberTileGameTests.modulemap */,
+				3F1551080A80FA0398A3D9B9B449BE18 /* Pods-NumberTileGameTests-acknowledgements.markdown */,
+				CAFC9D1493467B18015EF91A1D443E36 /* Pods-NumberTileGameTests-acknowledgements.plist */,
+				0AAB229E48FAAD139138CFBA42BBEBC7 /* Pods-NumberTileGameTests-dummy.m */,
+				24E1BA4323C043442401C27BBE9FCE33 /* Pods-NumberTileGameTests-Info.plist */,
+				18BCACE932341EADEE93630F878F320E /* Pods-NumberTileGameTests-umbrella.h */,
+				5A005227A61E57C18D2213C479541FF7 /* Pods-NumberTileGameTests.debug.xcconfig */,
+				B4A4C169B068853712FE18971B08D1C5 /* Pods-NumberTileGameTests.release.xcconfig */,
+			);
+			name = "Pods-NumberTileGameTests";
+			path = "Target Support Files/Pods-NumberTileGameTests";
+			sourceTree = "<group>";
+		};
+		324D67FD0603029A358BD23E7BFE537E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3BD1925F554BB7ACC9758E1D91651B52 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5C0D3A19893BF6B87D2D84E2D6AF5D83 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3925C029EDC05836B8787875E2F4276F /* opentracing.framework */,
+				324D67FD0603029A358BD23E7BFE537E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		685EE6D34619543B7CC2E5D60ABD524C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E08A53F8BECB226CC4471A89C6F4837 /* lightstep.framework */,
+				57A6FFC4002F1204821E1A5F35889C7C /* opentracing.framework */,
+				E32D813F33ACBC264E75F88921AE7F40 /* Pods_NumberTileGame.framework */,
+				CC35FECAE459C2AB1D2F6B1C408DC7E2 /* Pods_NumberTileGameTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		819FACBA6540D61B56D9E05DADBE4BE5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				17F8FE95C28B1AB10ABCA3D5568D2988 /* opentracing.modulemap */,
+				9F1004DDFC0BFC2029A3E1D543AE918E /* opentracing.xcconfig */,
+				DB574D8C5EE1B7AD2E03F5FD3A029FFF /* opentracing-dummy.m */,
+				8288C9B4E57528F0C6F3AC0CC6948D52 /* opentracing-Info.plist */,
+				5BA2D788CF11D4CCC006B32151B7F2E8 /* opentracing-prefix.pch */,
+				9A855F7CB991B9410627A1645A285783 /* opentracing-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/opentracing";
+			sourceTree = "<group>";
+		};
+		991CA34E37062784553CBBDEF5D4C954 /* opentracing */ = {
+			isa = PBXGroup;
+			children = (
+				9B2C328E08F062682378ADD59E6BFBA7 /* OpenTracing-Bridging-Header.h */,
+				2AD888820130A78761044B6419D720BB /* OTGlobal.h */,
+				44CAE590B0B0BCB96418A5C509D8387D /* OTGlobal.m */,
+				947CDDF507FFA15E146495915FEA6881 /* OTNoop.h */,
+				43E57E93D3252D84BC6EABF4EB9EB9C2 /* OTNoop.m */,
+				60D2B2CFFB36232557EF116C8E0CF2E5 /* OTReference.h */,
+				D231A943583DC34BF15A6318CD42BBA5 /* OTReference.m */,
+				75C125175B4338BF73BCB91E5F2205E3 /* OTSpan.h */,
+				107125F777D0269BA6E4ACF64EF48E3D /* OTSpanContext.h */,
+				50D91126135718E5277D02C7D440A720 /* OTTracer.h */,
+				2DC0B29826284F70BDC72723B2F54D2C /* OTTracer.m */,
+				A23496FF6F64480BACD4DF6064CCA0E8 /* OTVersion.h */,
+				819FACBA6540D61B56D9E05DADBE4BE5 /* Support Files */,
+			);
+			name = opentracing;
+			path = opentracing;
+			sourceTree = "<group>";
+		};
+		AFF5EF684420A022818FFD373B3D0A65 /* lightstep */ = {
+			isa = PBXGroup;
+			children = (
+				B744B2A9FC3C6475794EA0C8844FCEE0 /* LightStep-Bridging-Header.h */,
+				FE1B965CDF64741925B9D5A59A0F199A /* LSClockState.h */,
+				2C95FBE7BE165864F7E52FBF947C34CE /* LSClockState.m */,
+				21CFCE410B689BFB6516DD1086BFF5C2 /* LSSpan.h */,
+				1620EDDE459BAEC5B01BB22F136DBDF7 /* LSSpan.m */,
+				ABC6C16A546CC927F8E0E08B42DB3722 /* LSSpanContext.h */,
+				0B350BA4FE56145BF824A5BDCEEF58F8 /* LSSpanContext.m */,
+				855D124E0422638A69FA11859273C42E /* LSTracer.h */,
+				435C6D39F7A1C9813252B1434B695DC4 /* LSTracer.m */,
+				9C7A088E1A5EC4349595FA1CAF0AA0D8 /* LSUtil.h */,
+				E07530CBEB10EDD1B9381F2B1DB70C4D /* LSUtil.m */,
+				45B584C34960499DE77747AC6F43AED5 /* LSVersion.h */,
+				D68962423048712C000903F22D59A142 /* Support Files */,
+			);
+			name = lightstep;
+			path = lightstep;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				5C0D3A19893BF6B87D2D84E2D6AF5D83 /* Frameworks */,
+				D4C1AB76C9F9137B832B57DCA001D164 /* Pods */,
+				685EE6D34619543B7CC2E5D60ABD524C /* Products */,
+				0556ECA65FF6B696ED39784740105A7D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D4C1AB76C9F9137B832B57DCA001D164 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AFF5EF684420A022818FFD373B3D0A65 /* lightstep */,
+				991CA34E37062784553CBBDEF5D4C954 /* opentracing */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D68962423048712C000903F22D59A142 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6DB82CA6E35645616881FA3DB09AAB68 /* lightstep.modulemap */,
+				BD39653C1671A88A4346F6AA77232AC6 /* lightstep.xcconfig */,
+				E0DF5FB13154845D7440D3B9722A1FF6 /* lightstep-dummy.m */,
+				84C45172E37025C3954A5589B6442082 /* lightstep-Info.plist */,
+				6E412CA021C7756CD998772111BA0120 /* lightstep-prefix.pch */,
+				30EBD4C94DB359DD15C53BBC2C95C4EC /* lightstep-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/lightstep";
+			sourceTree = "<group>";
+		};
+		E0A59FA38BF1B6E943F35621035CC9CE /* Pods-NumberTileGame */ = {
+			isa = PBXGroup;
+			children = (
+				8B8C44FA05609D233A9E20F4EDADA342 /* Pods-NumberTileGame.modulemap */,
+				2F59A4A1B5CA51AF109F9889E8D0E3A2 /* Pods-NumberTileGame-acknowledgements.markdown */,
+				4A74BCB0E3A16DD3438BD66B62FF21D6 /* Pods-NumberTileGame-acknowledgements.plist */,
+				A3D71AB83BDEE311BBE53E445B09B7A3 /* Pods-NumberTileGame-dummy.m */,
+				5802EA8F86A5273987CB2BC435CDEFE6 /* Pods-NumberTileGame-frameworks.sh */,
+				C9CE9D3C96FA95E90FE1701BFEF1A088 /* Pods-NumberTileGame-Info.plist */,
+				46603A292498668A25369D05A17FEDCD /* Pods-NumberTileGame-umbrella.h */,
+				F6E2BB9DBC34B87330D9355FA342FE05 /* Pods-NumberTileGame.debug.xcconfig */,
+				C142D151C3952B28D31B74705D78AE58 /* Pods-NumberTileGame.release.xcconfig */,
+			);
+			name = "Pods-NumberTileGame";
+			path = "Target Support Files/Pods-NumberTileGame";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0C9696C45790E044180A14DDF43E8D4C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F2803AE52842BA490E45573F443726A /* Pods-NumberTileGameTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F4E5E79635EBC77BB95A86C2CE32212 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89851CE4F28BA5E8036AAD4B059A3401 /* Pods-NumberTileGame-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		522E4A4D031EF56AAA2F58FB61DB5240 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D2546A25E5D239155365F1E26F90F8F /* LightStep-Bridging-Header.h in Headers */,
+				950DD7F8ED59FF650B058D6C84DC9963 /* lightstep-umbrella.h in Headers */,
+				6A8F1EEA5888450210EEC503BF6EAB23 /* LSClockState.h in Headers */,
+				DF869C5925FD86C55C5E0693D1BDB522 /* LSSpan.h in Headers */,
+				8E400CA7D99A81B632121E62B9525FF2 /* LSSpanContext.h in Headers */,
+				833AB3E7A1564AECA7E0D54036460C00 /* LSTracer.h in Headers */,
+				18B102072154B4CED90387E534283D43 /* LSUtil.h in Headers */,
+				F49EA659DA73875E818DE00326CE9D1B /* LSVersion.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5EA558840487E3F3AF8820BB1300961 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15E1C4BE9985CA36B3FAAEFDA156F5AE /* OpenTracing-Bridging-Header.h in Headers */,
+				D148636C0D23031699DC9149B14BE2A3 /* opentracing-umbrella.h in Headers */,
+				3315F85F71B59662929C3346E74DDFE0 /* OTGlobal.h in Headers */,
+				46EE5692D4C64EBF1D303B8DE161F06E /* OTNoop.h in Headers */,
+				0397AE0E6F374A9811B4E72F6660FD16 /* OTReference.h in Headers */,
+				F1FB7A1DC57A8C78E1D4A831BB14FC62 /* OTSpan.h in Headers */,
+				A9BDE3F15B64928A78BBFF6B26A3E36A /* OTSpanContext.h in Headers */,
+				FAE07A559AE19397CE8897DCDD5C811A /* OTTracer.h in Headers */,
+				036F497A2FE3F4A16B182AC8CAE1D780 /* OTVersion.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		12A2789B46CF2BB27CCB96083CE4346A /* Pods-NumberTileGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 306C9D7366D2FBE01303630FBADE3DB6 /* Build configuration list for PBXNativeTarget "Pods-NumberTileGame" */;
+			buildPhases = (
+				1F4E5E79635EBC77BB95A86C2CE32212 /* Headers */,
+				A2FCA57F5F24591DD40328421BCFB58B /* Sources */,
+				83BED9EEB0657875D3A6E671B79B4262 /* Frameworks */,
+				99B5672C2FA0004C395472D587B94A16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0038735775B411612AE95CED2324C164 /* PBXTargetDependency */,
+				348AFFFF387717F24A97983057822420 /* PBXTargetDependency */,
+			);
+			name = "Pods-NumberTileGame";
+			productName = "Pods-NumberTileGame";
+			productReference = E32D813F33ACBC264E75F88921AE7F40 /* Pods_NumberTileGame.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		134ED9182A7A2B4FA24F18A7559F4D4A /* opentracing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36A6C2D64FBD623375C6E90ABF639A3D /* Build configuration list for PBXNativeTarget "opentracing" */;
+			buildPhases = (
+				C5EA558840487E3F3AF8820BB1300961 /* Headers */,
+				30616C70057D31E5E31AEC2E2AFFA13D /* Sources */,
+				204A3208148BB65CB8B7DFA9B81F1745 /* Frameworks */,
+				3F493FA18A8E61D3922CF1EAC17DB6D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = opentracing;
+			productName = opentracing;
+			productReference = 57A6FFC4002F1204821E1A5F35889C7C /* opentracing.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		807076DAAA77F0E0B680ACC7857CDBC8 /* lightstep */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57DA81DC5A448AC718752AEABA782557 /* Build configuration list for PBXNativeTarget "lightstep" */;
+			buildPhases = (
+				522E4A4D031EF56AAA2F58FB61DB5240 /* Headers */,
+				1C52396987CBB831D387EDE748609F39 /* Sources */,
+				447757A7F013E3993833420F03CB8D83 /* Frameworks */,
+				20C871E7FE8E6488CE62D6998B716A1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E289FB1B786BBA99727747EE8291E075 /* PBXTargetDependency */,
+			);
+			name = lightstep;
+			productName = lightstep;
+			productReference = 6E08A53F8BECB226CC4471A89C6F4837 /* lightstep.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FD2637327CB0507CFDB42B11FBAB5C65 /* Pods-NumberTileGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D61297463F863C5C02C0C899664E532A /* Build configuration list for PBXNativeTarget "Pods-NumberTileGameTests" */;
+			buildPhases = (
+				0C9696C45790E044180A14DDF43E8D4C /* Headers */,
+				07E21D2FDCBEE5276A2D556BA29F2E71 /* Sources */,
+				61B632B03786A7132EAF8D5E60230A78 /* Frameworks */,
+				E2AD988B980297583AD99E68E20D85D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F09E76AC3DEC30FFCDC09613007CF7E2 /* PBXTargetDependency */,
+			);
+			name = "Pods-NumberTileGameTests";
+			productName = "Pods-NumberTileGameTests";
+			productReference = CC35FECAE459C2AB1D2F6B1C408DC7E2 /* Pods_NumberTileGameTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 685EE6D34619543B7CC2E5D60ABD524C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				807076DAAA77F0E0B680ACC7857CDBC8 /* lightstep */,
+				134ED9182A7A2B4FA24F18A7559F4D4A /* opentracing */,
+				12A2789B46CF2BB27CCB96083CE4346A /* Pods-NumberTileGame */,
+				FD2637327CB0507CFDB42B11FBAB5C65 /* Pods-NumberTileGameTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20C871E7FE8E6488CE62D6998B716A1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F493FA18A8E61D3922CF1EAC17DB6D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99B5672C2FA0004C395472D587B94A16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2AD988B980297583AD99E68E20D85D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07E21D2FDCBEE5276A2D556BA29F2E71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52271E1C7CB22EDC441853AD25E60312 /* Pods-NumberTileGameTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C52396987CBB831D387EDE748609F39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA8C9BB4DB9393CDB837F88D34A74449 /* lightstep-dummy.m in Sources */,
+				3ED74848A65FECA753CD751F56C49FAC /* LSClockState.m in Sources */,
+				CD5AC15A5C19D4DC279ED15B961346F6 /* LSSpan.m in Sources */,
+				BB4912D0DE6F235A0DF5A474E8419315 /* LSSpanContext.m in Sources */,
+				9652692D0BE8E9A9D13C3A5F1B0CB0AE /* LSTracer.m in Sources */,
+				76875D293F968E67BC8B951F3AC612FF /* LSUtil.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30616C70057D31E5E31AEC2E2AFFA13D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F934AB439173904272F749CC30C3C117 /* opentracing-dummy.m in Sources */,
+				8088D31EC9BD4F89B8A2619A6DCBB626 /* OTGlobal.m in Sources */,
+				A904DB8907F8ABB63032FBDFE44195DE /* OTNoop.m in Sources */,
+				7240D3D66A582B9952313B533E0165C3 /* OTReference.m in Sources */,
+				ADC7D00F0F0CB20358A6E445BFDCDA34 /* OTTracer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2FCA57F5F24591DD40328421BCFB58B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6B4589A849232BF5100145257B03ED7 /* Pods-NumberTileGame-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0038735775B411612AE95CED2324C164 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = lightstep;
+			target = 807076DAAA77F0E0B680ACC7857CDBC8 /* lightstep */;
+			targetProxy = 3C0CA9C7D69DC3A20606FAC8ED18C9D7 /* PBXContainerItemProxy */;
+		};
+		348AFFFF387717F24A97983057822420 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = opentracing;
+			target = 134ED9182A7A2B4FA24F18A7559F4D4A /* opentracing */;
+			targetProxy = 5E9216B44443EF46E0C3EB4845C5A661 /* PBXContainerItemProxy */;
+		};
+		E289FB1B786BBA99727747EE8291E075 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = opentracing;
+			target = 134ED9182A7A2B4FA24F18A7559F4D4A /* opentracing */;
+			targetProxy = 673EFBA9B84DC23700184664C6826BEC /* PBXContainerItemProxy */;
+		};
+		F09E76AC3DEC30FFCDC09613007CF7E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-NumberTileGame";
+			target = 12A2789B46CF2BB27CCB96083CE4346A /* Pods-NumberTileGame */;
+			targetProxy = 3BCDDB80E4AE4D24DD0731D466A618E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		061738B630A8E3C5FABDAD14E4BA8DDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C142D151C3952B28D31B74705D78AE58 /* Pods-NumberTileGame.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NumberTileGame/Pods-NumberTileGame-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NumberTileGame/Pods-NumberTileGame.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0CBFBD9DE9B4F0D154A2A0BEC6E1A488 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A005227A61E57C18D2213C479541FF7 /* Pods-NumberTileGameTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NumberTileGameTests/Pods-NumberTileGameTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NumberTileGameTests/Pods-NumberTileGameTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		288C117FBC3EB3F0E247572F2DE33EB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4A4C169B068853712FE18971B08D1C5 /* Pods-NumberTileGameTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NumberTileGameTests/Pods-NumberTileGameTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NumberTileGameTests/Pods-NumberTileGameTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2C9C913DDC6DE2B253E248178B51C073 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F1004DDFC0BFC2029A3E1D543AE918E /* opentracing.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/opentracing/opentracing-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/opentracing/opentracing-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/opentracing/opentracing.modulemap";
+				PRODUCT_MODULE_NAME = opentracing;
+				PRODUCT_NAME = opentracing;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7DBCCC543EB10B5F8BDDA42003F16AAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		AFD54F2847F5B4199622AC1AFBE5F021 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6E2BB9DBC34B87330D9355FA342FE05 /* Pods-NumberTileGame.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NumberTileGame/Pods-NumberTileGame-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NumberTileGame/Pods-NumberTileGame.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BDB7389B1DCE79550D633BCD0D7D44B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F1004DDFC0BFC2029A3E1D543AE918E /* opentracing.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/opentracing/opentracing-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/opentracing/opentracing-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/opentracing/opentracing.modulemap";
+				PRODUCT_MODULE_NAME = opentracing;
+				PRODUCT_NAME = opentracing;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E3954E7B083B8C552684E85A3F7D265B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD39653C1671A88A4346F6AA77232AC6 /* lightstep.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/lightstep/lightstep-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/lightstep/lightstep-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/lightstep/lightstep.modulemap";
+				PRODUCT_MODULE_NAME = lightstep;
+				PRODUCT_NAME = lightstep;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E7818A6D226CC23A15D561F4F5519E0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		EC2E59EA1549391F1187BD54C5BF6156 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD39653C1671A88A4346F6AA77232AC6 /* lightstep.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/lightstep/lightstep-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/lightstep/lightstep-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/lightstep/lightstep.modulemap";
+				PRODUCT_MODULE_NAME = lightstep;
+				PRODUCT_NAME = lightstep;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		306C9D7366D2FBE01303630FBADE3DB6 /* Build configuration list for PBXNativeTarget "Pods-NumberTileGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFD54F2847F5B4199622AC1AFBE5F021 /* Debug */,
+				061738B630A8E3C5FABDAD14E4BA8DDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36A6C2D64FBD623375C6E90ABF639A3D /* Build configuration list for PBXNativeTarget "opentracing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C9C913DDC6DE2B253E248178B51C073 /* Debug */,
+				BDB7389B1DCE79550D633BCD0D7D44B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7818A6D226CC23A15D561F4F5519E0B /* Debug */,
+				7DBCCC543EB10B5F8BDDA42003F16AAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57DA81DC5A448AC718752AEABA782557 /* Build configuration list for PBXNativeTarget "lightstep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC2E59EA1549391F1187BD54C5BF6156 /* Debug */,
+				E3954E7B083B8C552684E85A3F7D265B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D61297463F863C5C02C0C899664E532A /* Build configuration list for PBXNativeTarget "Pods-NumberTileGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CBFBD9DE9B4F0D154A2A0BEC6E1A488 /* Debug */,
+				288C117FBC3EB3F0E247572F2DE33EB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

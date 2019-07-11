@@ -7,6 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "LSTracer.h"
+#import "opentracing/OTGlobal.h"
 
 @interface F3HAppDelegate : UIResponder <UIApplicationDelegate>
 

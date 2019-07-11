@@ -12,6 +12,8 @@
 #import "F3HControlView.h"
 #import "F3HScoreView.h"
 #import "F3HGameModel.h"
+#import "LSTracer.h"
+#import "opentracing/OTGlobal.h"
 
 #define ELEMENT_SPACING 10
 
@@ -196,21 +198,28 @@
 #pragma mark - Model Protocol
 
 - (void)moveTileFromIndexPath:(NSIndexPath *)fromPath toIndexPath:(NSIndexPath *)toPath newValue:(NSUInteger)value {
+    id<OTSpan> span = [[OTGlobal sharedTracer] startSpan:@"moveTileFromIndexPath:"];
     [self.gameboard moveTileAtIndexPath:fromPath toIndexPath:toPath withValue:value];
+    [span finish];
 }
 
 - (void)moveTileOne:(NSIndexPath *)startA tileTwo:(NSIndexPath *)startB toIndexPath:(NSIndexPath *)end newValue:(NSUInteger)value {
+    id<OTSpan> span = [[OTGlobal sharedTracer] startSpan:@"moveTileOne:"];
     [self.gameboard moveTileOne:startA tileTwo:startB toIndexPath:end withValue:value];
+    [span finish];
 }
 
 - (void)insertTileAtIndexPath:(NSIndexPath *)path value:(NSUInteger)value {
+    id<OTSpan> span = [[OTGlobal sharedTracer] startSpan:@"insertTileAtIndexPath:"];
     [self.gameboard insertTileAtIndexPath:path withValue:value];
+    [span finish];
 }
 
 - (void)scoreChanged:(NSInteger)newScore {
+    id<OTSpan> span = [[OTGlobal sharedTracer] startSpan:@"insertTileAtIndexPath:"];
     self.scoreView.score = newScore;
+    [span finish];
 }
-
 
 #pragma mark - Control View Protocol
 

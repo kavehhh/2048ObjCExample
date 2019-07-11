@@ -34,6 +34,8 @@
 		1A34882518E169AA00D021C3 /* F3HScoreView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A34882418E169AA00D021C3 /* F3HScoreView.m */; };
 		1A34882818E1713E00D021C3 /* F3HControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A34882718E1713E00D021C3 /* F3HControlView.m */; };
 		1A92D000191A016600E35C6C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A92CFFF191A016600E35C6C /* QuartzCore.framework */; };
+		7F1D8B1DA69F9CD66421EA48 /* Pods_NumberTileGameTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82490EFE02838EC335582742 /* Pods_NumberTileGameTests.framework */; };
+		A7A9079CA2C901E160DCE482 /* Pods_NumberTileGame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E61291990BB969A3ABE246F1 /* Pods_NumberTileGame.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,6 +92,48 @@
 		1A34882618E1713E00D021C3 /* F3HControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = F3HControlView.h; path = Views/F3HControlView.h; sourceTree = "<group>"; };
 		1A34882718E1713E00D021C3 /* F3HControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = F3HControlView.m; path = Views/F3HControlView.m; sourceTree = "<group>"; };
 		1A92CFFF191A016600E35C6C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		621E52BA4C27E1EFD13A50AA /* Pods-NumberTileGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NumberTileGame.debug.xcconfig"; path = "Target Support Files/Pods-NumberTileGame/Pods-NumberTileGame.debug.xcconfig"; sourceTree = "<group>"; };
+		66D48946299DBCF7F8F19782 /* Pods-NumberTileGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NumberTileGame.release.xcconfig"; path = "Target Support Files/Pods-NumberTileGame/Pods-NumberTileGame.release.xcconfig"; sourceTree = "<group>"; };
+		82490EFE02838EC335582742 /* Pods_NumberTileGameTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NumberTileGameTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9438C4790E5BB305C65AFE33 /* Pods-NumberTileGameTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NumberTileGameTests.debug.xcconfig"; path = "Target Support Files/Pods-NumberTileGameTests/Pods-NumberTileGameTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CEFC84A822D6993C00938DF2 /* LightStep-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "LightStep-Bridging-Header.h"; path = "Pod/Classes/LightStep-Bridging-Header.h"; sourceTree = "<group>"; };
+		CEFC84A922D6993C00938DF2 /* LSClockState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LSClockState.h; path = Pod/Classes/LSClockState.h; sourceTree = "<group>"; };
+		CEFC84AA22D6993C00938DF2 /* LSClockState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = LSClockState.m; path = Pod/Classes/LSClockState.m; sourceTree = "<group>"; };
+		CEFC84AB22D6993C00938DF2 /* LSSpan.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LSSpan.h; path = Pod/Classes/LSSpan.h; sourceTree = "<group>"; };
+		CEFC84AC22D6993C00938DF2 /* LSSpan.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = LSSpan.m; path = Pod/Classes/LSSpan.m; sourceTree = "<group>"; };
+		CEFC84AD22D6993C00938DF2 /* LSSpanContext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LSSpanContext.h; path = Pod/Classes/LSSpanContext.h; sourceTree = "<group>"; };
+		CEFC84AE22D6993C00938DF2 /* LSSpanContext.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = LSSpanContext.m; path = Pod/Classes/LSSpanContext.m; sourceTree = "<group>"; };
+		CEFC84AF22D6993C00938DF2 /* LSTracer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LSTracer.h; path = Pod/Classes/LSTracer.h; sourceTree = "<group>"; };
+		CEFC84B022D6993C00938DF2 /* LSTracer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = LSTracer.m; path = Pod/Classes/LSTracer.m; sourceTree = "<group>"; };
+		CEFC84B122D6993C00938DF2 /* LSUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LSUtil.h; path = Pod/Classes/LSUtil.h; sourceTree = "<group>"; };
+		CEFC84B222D6993C00938DF2 /* LSUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = LSUtil.m; path = Pod/Classes/LSUtil.m; sourceTree = "<group>"; };
+		CEFC84B322D6993C00938DF2 /* LSVersion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LSVersion.h; path = Pod/Classes/LSVersion.h; sourceTree = "<group>"; };
+		CEFC84B422D6993C00938DF2 /* lightstep.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = lightstep.modulemap; sourceTree = "<group>"; };
+		CEFC84B522D6993C00938DF2 /* lightstep.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = lightstep.xcconfig; sourceTree = "<group>"; };
+		CEFC84B622D6993C00938DF2 /* lightstep-dummy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "lightstep-dummy.m"; sourceTree = "<group>"; };
+		CEFC84B722D6993C00938DF2 /* lightstep-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "lightstep-Info.plist"; sourceTree = "<group>"; };
+		CEFC84B822D6993C00938DF2 /* lightstep-prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "lightstep-prefix.pch"; sourceTree = "<group>"; };
+		CEFC84B922D6993C00938DF2 /* lightstep-umbrella.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "lightstep-umbrella.h"; sourceTree = "<group>"; };
+		CEFC84BC22D6993C00938DF2 /* OpenTracing-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "OpenTracing-Bridging-Header.h"; path = "Pod/Classes/OpenTracing-Bridging-Header.h"; sourceTree = "<group>"; };
+		CEFC84BD22D6993C00938DF2 /* OTGlobal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = OTGlobal.h; path = Pod/Classes/OTGlobal.h; sourceTree = "<group>"; };
+		CEFC84BE22D6993C00938DF2 /* OTGlobal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = OTGlobal.m; path = Pod/Classes/OTGlobal.m; sourceTree = "<group>"; };
+		CEFC84BF22D6993C00938DF2 /* OTNoop.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = OTNoop.h; path = Pod/Classes/OTNoop.h; sourceTree = "<group>"; };
+		CEFC84C022D6993C00938DF2 /* OTNoop.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = OTNoop.m; path = Pod/Classes/OTNoop.m; sourceTree = "<group>"; };
+		CEFC84C122D6993C00938DF2 /* OTReference.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = OTReference.h; path = Pod/Classes/OTReference.h; sourceTree = "<group>"; };
+		CEFC84C222D6993C00938DF2 /* OTReference.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = OTReference.m; path = Pod/Classes/OTReference.m; sourceTree = "<group>"; };
+		CEFC84C322D6993C00938DF2 /* OTSpan.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = OTSpan.h; path = Pod/Classes/OTSpan.h; sourceTree = "<group>"; };
+		CEFC84C422D6993C00938DF2 /* OTSpanContext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = OTSpanContext.h; path = Pod/Classes/OTSpanContext.h; sourceTree = "<group>"; };
+		CEFC84C522D6993C00938DF2 /* OTTracer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = OTTracer.h; path = Pod/Classes/OTTracer.h; sourceTree = "<group>"; };
+		CEFC84C622D6993C00938DF2 /* OTTracer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = OTTracer.m; path = Pod/Classes/OTTracer.m; sourceTree = "<group>"; };
+		CEFC84C722D6993C00938DF2 /* OTVersion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = OTVersion.h; path = Pod/Classes/OTVersion.h; sourceTree = "<group>"; };
+		CEFC84C822D6993C00938DF2 /* opentracing.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = opentracing.modulemap; sourceTree = "<group>"; };
+		CEFC84C922D6993C00938DF2 /* opentracing.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = opentracing.xcconfig; sourceTree = "<group>"; };
+		CEFC84CA22D6993C00938DF2 /* opentracing-dummy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "opentracing-dummy.m"; sourceTree = "<group>"; };
+		CEFC84CB22D6993C00938DF2 /* opentracing-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "opentracing-Info.plist"; sourceTree = "<group>"; };
+		CEFC84CC22D6993C00938DF2 /* opentracing-prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "opentracing-prefix.pch"; sourceTree = "<group>"; };
+		CEFC84CD22D6993C00938DF2 /* opentracing-umbrella.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "opentracing-umbrella.h"; sourceTree = "<group>"; };
+		E61291990BB969A3ABE246F1 /* Pods_NumberTileGame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NumberTileGame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE6A397EEC1C7A8D4FCF93B7 /* Pods-NumberTileGameTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NumberTileGameTests.release.xcconfig"; path = "Target Support Files/Pods-NumberTileGameTests/Pods-NumberTileGameTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +145,7 @@
 				1A3487B318DEAD6E00D021C3 /* CoreGraphics.framework in Frameworks */,
 				1A3487B518DEAD6E00D021C3 /* UIKit.framework in Frameworks */,
 				1A3487B118DEAD6E00D021C3 /* Foundation.framework in Frameworks */,
+				A7A9079CA2C901E160DCE482 /* Pods_NumberTileGame.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,6 +156,7 @@
 				1A3487D318DEAD6E00D021C3 /* XCTest.framework in Frameworks */,
 				1A3487D518DEAD6E00D021C3 /* UIKit.framework in Frameworks */,
 				1A3487D418DEAD6E00D021C3 /* Foundation.framework in Frameworks */,
+				7F1D8B1DA69F9CD66421EA48 /* Pods_NumberTileGameTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,6 +170,7 @@
 				1A3487D818DEAD6E00D021C3 /* NumberTileGameTests */,
 				1A3487AF18DEAD6E00D021C3 /* Frameworks */,
 				1A3487AE18DEAD6E00D021C3 /* Products */,
+				643DBDEC18B3AD3515EBBC0D /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -144,6 +191,8 @@
 				1A3487B218DEAD6E00D021C3 /* CoreGraphics.framework */,
 				1A3487B418DEAD6E00D021C3 /* UIKit.framework */,
 				1A3487D218DEAD6E00D021C3 /* XCTest.framework */,
+				E61291990BB969A3ABE246F1 /* Pods_NumberTileGame.framework */,
+				82490EFE02838EC335582742 /* Pods_NumberTileGameTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -230,6 +279,95 @@
 			name = Views;
 			sourceTree = "<group>";
 		};
+		643DBDEC18B3AD3515EBBC0D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CEFC84D022D6993C00938DF2 /* Pods */,
+				621E52BA4C27E1EFD13A50AA /* Pods-NumberTileGame.debug.xcconfig */,
+				66D48946299DBCF7F8F19782 /* Pods-NumberTileGame.release.xcconfig */,
+				9438C4790E5BB305C65AFE33 /* Pods-NumberTileGameTests.debug.xcconfig */,
+				EE6A397EEC1C7A8D4FCF93B7 /* Pods-NumberTileGameTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CEFC84BA22D6993C00938DF2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEFC84B422D6993C00938DF2 /* lightstep.modulemap */,
+				CEFC84B522D6993C00938DF2 /* lightstep.xcconfig */,
+				CEFC84B622D6993C00938DF2 /* lightstep-dummy.m */,
+				CEFC84B722D6993C00938DF2 /* lightstep-Info.plist */,
+				CEFC84B822D6993C00938DF2 /* lightstep-prefix.pch */,
+				CEFC84B922D6993C00938DF2 /* lightstep-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/lightstep";
+			sourceTree = "<group>";
+		};
+		CEFC84BB22D6993C00938DF2 /* lightstep */ = {
+			isa = PBXGroup;
+			children = (
+				CEFC84A822D6993C00938DF2 /* LightStep-Bridging-Header.h */,
+				CEFC84A922D6993C00938DF2 /* LSClockState.h */,
+				CEFC84AA22D6993C00938DF2 /* LSClockState.m */,
+				CEFC84AB22D6993C00938DF2 /* LSSpan.h */,
+				CEFC84AC22D6993C00938DF2 /* LSSpan.m */,
+				CEFC84AD22D6993C00938DF2 /* LSSpanContext.h */,
+				CEFC84AE22D6993C00938DF2 /* LSSpanContext.m */,
+				CEFC84AF22D6993C00938DF2 /* LSTracer.h */,
+				CEFC84B022D6993C00938DF2 /* LSTracer.m */,
+				CEFC84B122D6993C00938DF2 /* LSUtil.h */,
+				CEFC84B222D6993C00938DF2 /* LSUtil.m */,
+				CEFC84B322D6993C00938DF2 /* LSVersion.h */,
+				CEFC84BA22D6993C00938DF2 /* Support Files */,
+			);
+			path = lightstep;
+			sourceTree = "<group>";
+		};
+		CEFC84CE22D6993C00938DF2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEFC84C822D6993C00938DF2 /* opentracing.modulemap */,
+				CEFC84C922D6993C00938DF2 /* opentracing.xcconfig */,
+				CEFC84CA22D6993C00938DF2 /* opentracing-dummy.m */,
+				CEFC84CB22D6993C00938DF2 /* opentracing-Info.plist */,
+				CEFC84CC22D6993C00938DF2 /* opentracing-prefix.pch */,
+				CEFC84CD22D6993C00938DF2 /* opentracing-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/opentracing";
+			sourceTree = "<group>";
+		};
+		CEFC84CF22D6993C00938DF2 /* opentracing */ = {
+			isa = PBXGroup;
+			children = (
+				CEFC84BC22D6993C00938DF2 /* OpenTracing-Bridging-Header.h */,
+				CEFC84BD22D6993C00938DF2 /* OTGlobal.h */,
+				CEFC84BE22D6993C00938DF2 /* OTGlobal.m */,
+				CEFC84BF22D6993C00938DF2 /* OTNoop.h */,
+				CEFC84C022D6993C00938DF2 /* OTNoop.m */,
+				CEFC84C122D6993C00938DF2 /* OTReference.h */,
+				CEFC84C222D6993C00938DF2 /* OTReference.m */,
+				CEFC84C322D6993C00938DF2 /* OTSpan.h */,
+				CEFC84C422D6993C00938DF2 /* OTSpanContext.h */,
+				CEFC84C522D6993C00938DF2 /* OTTracer.h */,
+				CEFC84C622D6993C00938DF2 /* OTTracer.m */,
+				CEFC84C722D6993C00938DF2 /* OTVersion.h */,
+				CEFC84CE22D6993C00938DF2 /* Support Files */,
+			);
+			path = opentracing;
+			sourceTree = "<group>";
+		};
+		CEFC84D022D6993C00938DF2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CEFC84BB22D6993C00938DF2 /* lightstep */,
+				CEFC84CF22D6993C00938DF2 /* opentracing */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -237,9 +375,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1A3487E218DEAD6E00D021C3 /* Build configuration list for PBXNativeTarget "NumberTileGame" */;
 			buildPhases = (
+				9151585A41952091788D1B7C /* [CP] Check Pods Manifest.lock */,
 				1A3487A918DEAD6E00D021C3 /* Sources */,
 				1A3487AA18DEAD6E00D021C3 /* Frameworks */,
 				1A3487AB18DEAD6E00D021C3 /* Resources */,
+				183F3A5A3702E721491238A2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -254,6 +394,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1A3487E518DEAD6E00D021C3 /* Build configuration list for PBXNativeTarget "NumberTileGameTests" */;
 			buildPhases = (
+				E30392F01CBE0A571D20807D /* [CP] Check Pods Manifest.lock */,
 				1A3487CD18DEAD6E00D021C3 /* Sources */,
 				1A3487CE18DEAD6E00D021C3 /* Frameworks */,
 				1A3487CF18DEAD6E00D021C3 /* Resources */,
@@ -290,6 +431,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -324,6 +466,73 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		183F3A5A3702E721491238A2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NumberTileGame/Pods-NumberTileGame-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/lightstep/lightstep.framework",
+				"${BUILT_PRODUCTS_DIR}/opentracing/opentracing.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/lightstep.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/opentracing.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NumberTileGame/Pods-NumberTileGame-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9151585A41952091788D1B7C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NumberTileGame-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E30392F01CBE0A571D20807D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NumberTileGameTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1A3487A918DEAD6E00D021C3 /* Sources */ = {
@@ -468,6 +677,7 @@
 		};
 		1A3487E318DEAD6E00D021C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 621E52BA4C27E1EFD13A50AA /* Pods-NumberTileGame.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -485,6 +695,7 @@
 		};
 		1A3487E418DEAD6E00D021C3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66D48946299DBCF7F8F19782 /* Pods-NumberTileGame.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -502,6 +713,7 @@
 		};
 		1A3487E618DEAD6E00D021C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9438C4790E5BB305C65AFE33 /* Pods-NumberTileGameTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NumberTileGame.app/NumberTileGame";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -524,6 +736,7 @@
 		};
 		1A3487E718DEAD6E00D021C3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE6A397EEC1C7A8D4FCF93B7 /* Pods-NumberTileGameTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NumberTileGame.app/NumberTileGame";
 				FRAMEWORK_SEARCH_PATHS = (

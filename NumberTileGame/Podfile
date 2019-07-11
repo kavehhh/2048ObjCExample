@@ -1,0 +1,16 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'NumberTileGame' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for NumberTileGame
+  pod 'lightstep', '~>3.2'
+
+  target 'NumberTileGameTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

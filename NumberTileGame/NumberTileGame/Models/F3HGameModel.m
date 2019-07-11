@@ -13,6 +13,8 @@
 #import "F3HMergeTile.h"
 #import "F3HQueueCommand.h"
 
+#import "F3HAppDelegate.h"
+
 // Command queue
 #define MAX_COMMANDS      100
 #define QUEUE_DELAY       0.3
@@ -57,6 +59,7 @@
 #pragma mark - Insertion API
 
 - (void)insertAtRandomLocationTileWithValue:(NSUInteger)value {
+    id<OTSpan> span = [[OTGlobal sharedTracer] startSpan:@"insertAtRandomLocationTileWithValue:"];
     // Check if gameboard is full
     BOOL emptySpotFound = NO;
     for (NSInteger i=0; i<[self.gameState count]; i++) {
@@ -97,18 +100,21 @@
             break;
         }
     }
+    [span finish];
     [self insertTileWithValue:value atIndexPath:[NSIndexPath indexPathForRow:row inSection:column]];
 }
 
 // Insert a tile (used by the game to add new tiles to the board)
 - (void)insertTileWithValue:(NSUInteger)value
                 atIndexPath:(NSIndexPath *)path {
+    id<OTSpan> span = [[OTGlobal sharedTracer] startSpan:@"insertTileWithValue:"];
     if (![self tileForIndexPath:path].empty) {
         return;
     }
     F3HTileModel *tile = [self tileForIndexPath:path];
     tile.empty = NO;
     tile.value = value;
+    [span finish];
     [self.delegate insertTileAtIndexPath:path value:value];
 }
 
@@ -123,6 +129,8 @@
 
 - (BOOL)performUpMove {
     BOOL atLeastOneMove = NO;
+    
+    id<OTSpan> span = [[OTGlobal sharedTracer] startSpan:@"performUpMove:"];
     
     // Examine each column, left to right ([]-->[]-->[])
     for (NSInteger column = 0; column<self.dimension; column++) {
@@ -174,11 +182,14 @@
             }
         }
     }
+    [span finish];
     return atLeastOneMove;
 }
 
 - (BOOL)performDownMove {
     BOOL atLeastOneMove = NO;
+    
+    id<OTSpan> span = [[OTGlobal sharedTracer] startSpan:@"performDownMove:"];
     
     // Examine each column, left to right ([]-->[]-->[])
     for (NSInteger column = 0; column<self.dimension; column++) {
@@ -231,11 +242,14 @@
             }
         }
     }
+    [span finish];
     return atLeastOneMove;
 }
 
 - (BOOL)performLeftMove {
     BOOL atLeastOneMove = NO;
+    
+    id<OTSpan> span = [[OTGlobal sharedTracer] startSpan:@"performLeftMove:"];
     
     // Examine each row, up to down ([TTT] --> [---] --> [____])
     for (NSInteger row = 0; row<self.dimension; row++) {
@@ -289,11 +303,14 @@
             }
         }
     }
+    [span finish];
     return atLeastOneMove;
 }
 
 - (BOOL)performRightMove {
     BOOL atLeastOneMove = NO;
+    
+    id<OTSpan> span = [[OTGlobal sharedTracer] startSpan:@"performRightMove:"];
     
     // Examine each row, up to down ([TTT] --> [---] --> [____])
     for (NSInteger row = 0; row<self.dimension; row++) {
@@ -346,6 +363,7 @@
             }
         }
     }
+    [span finish];
     return atLeastOneMove;
 }
 

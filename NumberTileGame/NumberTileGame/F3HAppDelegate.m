@@ -7,11 +7,18 @@
 //
 
 #import "F3HAppDelegate.h"
+#import "LSTracer.h"
+#import "opentracing/OTGlobal.h"
 
 @implementation F3HAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    // Initialize the LightStep tracer implementation
+    LSTracer* tracer = [[LSTracer alloc] initWithToken:@"<access token>" componentName:@"2048ObjCExample" flushIntervalSeconds:2];
+    
+    tracer.maxSpanRecords = 600;
+    [OTGlobal initSharedTracer:tracer];
     // Override point for customization after application launch.
     return YES;
 }
